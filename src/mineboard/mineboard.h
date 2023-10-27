@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../minecase/minecase.h"
+#include <stdbool.h>
 
 typedef enum{
     MINE,
