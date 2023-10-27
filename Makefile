@@ -5,7 +5,8 @@ LDFLAGS =
 LDLIBS = -lncursesw
 
 SRC = 	main.c \
-		./src/mineboard/mineboard.c
+		./src/mineboard/mineboard.c \
+		./src/UI/menu/menu.c
 OBJ = ${SRC:.c=.o}
 DEP = ${SRC:.c=.d}
 
